@@ -9,7 +9,7 @@
 
   h1 {
     text-align: center;
-    font-size: 4rem;
+    font-size: 400%;
     margin-top: 1.5rem;
   }
 
@@ -17,14 +17,28 @@
     .disFlex();
     justify-content: space-between;
     width: 30%;
-    margin: 0 auto;
-    margin-bottom: 1.25rem;
-    margin-top: 1.75rem;
+    margin: 1.75rem auto 1.25rem auto;
+    // margin-bottom: 1.25rem;
+    // margin-top: 1.75rem;
+
+    @media @medium {
+      width: 100%;
+      justify-content: space-around;
+      padding-left: 10rem;
+      padding-right: 10rem;
+    }
+
+    @media @phone {
+      width: 100%;
+      justify-content: space-around;
+      padding-left: 5rem;
+      padding-right: 5rem;
+    }
 
     a {
       text-decoration: none;
       color: black;
-      font-size: 1.50rem;
+      font-size: 150%;
     }
   }
 }
