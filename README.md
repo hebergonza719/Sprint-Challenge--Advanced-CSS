@@ -34,13 +34,27 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the difference between an adaptive website and a fully responsive website?
 
+An adaptive website has multiple layouts for a website depending on the screen size. It has breaking points. It doesn’t smoothly transition into each layout, it snaps to it.
+
+A responsive layout responds to the width of a website at any point. You may use breaking points, but it doesn’t necessarily rely on them. 
+
 2. Describe what it means to be mobile first vs desktop first.
+
+When you design mobile first, you focus on building your page firstly on mobile screens, after you are done with that layout, you proceed to a tablet viewport. After that, you should continue designing for a desktop viewport. Usually media queries will contain a min-width query instead of a max-width query for the viewport. Desktop first is quite similar, but you begin desiging for the desktop layout instead, you would most likely use a max-width query.
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
+Setting the font-size to 62.5% in the html tag will set it to an equivalent of 10px. This is done so we can use rems. Rems scale depending on the root, or the html in this case. So if I set a font-size to 3.5rem, it also means I am setting it to 35px.
+
 4. How would you describe preprocessing to someone new to CSS?
 
+It means to use a program called preprocessor to generate CSS code using the program's own syntax and extra features. Since CSS is a little primative, these programs allow us to minimize repetition and provide us with more effective and readable code. The preprocessor we have learned so far is {less}, but there are others that offer similar features, such as SASS.
+
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+My favorite concept is nesting and {less} imports. I believe it is more organized which saves time and makes things easier to find.
+
+I have difficulty knowing when I should create a variable since I haven’t found much use for them. I see their utility in parametric mixins because they are necessary for that kind of mixin to work.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
