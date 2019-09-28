@@ -95,6 +95,11 @@
         border-color: @btn-bg-color;
         font-weight: bold;
         font-size: 1.75rem;
+        
+        &:hover {
+          background-color:  lighten(@btn-bg-color, 20%);
+          color: lighten(#EED369, 20%);
+        }
 
         @media @phone {
           .btnStyle(7rem, 100%, white, @btn-bg-color);

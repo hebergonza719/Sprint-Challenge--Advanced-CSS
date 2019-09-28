@@ -300,6 +300,10 @@ footer {
   font-weight: bold;
   font-size: 1.75rem;
 }
+.home .walk .walk-text .btn:hover {
+  background-color: #48547a;
+  color: #f8eec5;
+}
 @media (max-width: 500px) {
   .home .walk .walk-text .btn {
     height: 7rem;
