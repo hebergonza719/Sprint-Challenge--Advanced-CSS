@@ -1,6 +1,9 @@
 .disFlex {
   display: flex;
 }
+.borderRadius {
+  border-radius: 0.75rem;
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -181,7 +184,7 @@ p {
   width: 30%;
   margin: 0 auto;
   margin-bottom: 1.25rem;
-  margin-top: 1.25rem;
+  margin-top: 1.75rem;
 }
 .nav-header nav a {
   text-decoration: none;
@@ -239,6 +242,17 @@ footer {
 }
 .home .walk .walk-text p {
   margin-bottom: 26px;
+}
+.home .walk .walk-text .btn {
+  height: 3.7rem;
+  width: 10rem;
+  color: white;
+  background-color: #22283A;
+  border-radius: 0.75rem;
+  border-style: solid;
+  border-color: #22283A;
+  font-weight: bold;
+  font-size: 1.75rem;
 }
 .home .walk .walk-img {
   width: 46%;
