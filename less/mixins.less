@@ -1,1 +1,19 @@
 // Mixins Here
+.disFlex {
+  display: flex;
+}
+
+.flexDirect(@direction) {
+  flex-direction: @direction;
+}
+
+.borderRadius {
+  border-radius: 0.75rem;
+}
+
+.btnStyle(@height, @width, @fontColor, @bgColor) {
+  height: @height;
+  width: @width;
+  color: @fontColor;
+  background-color: @bgColor;
+}
